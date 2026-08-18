@@ -1,10 +1,5 @@
 # Local LLM Agents: Tool-Calling Reliability & Failure Taxonomy
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-Stateful%20Agents-blueviolet)](https://github.com/langchain-ai/langgraph)
-[![LangChain](https://img.shields.io/badge/LangChain-Framework-1c3c3c)](https://github.com/langchain-ai/langchain)
-[![Ollama](https://img.shields.io/badge/Ollama-Local%20Inference-black)](https://ollama.ai/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A robust evaluation framework and implementation of **tool-augmented autonomous agents** using **LangGraph** and stateful **ReAct** loops over locally served open-weight LLMs (`Llama 3.2`, `Qwen 2.5`) via **Ollama**.
 
@@ -113,40 +108,3 @@ From analyzing thousands of execution traces, failure modes are categorized into
 └── README.md
 ```
 
----
-
-## 🛠️ Quick Start
-
-### 1. Installation
-
-```bash
-git clone https://github.com/<your-username>/Local-LLM-Agents-Reliability.git
-cd Local-LLM-Agents-Reliability
-python3 -m venv venv
-source venv/bin/activate
-pip install -e .
-```
-
-### 2. Start Ollama and Pull Models
-
-```bash
-ollama pull llama3.2:3b
-ollama pull qwen2.5:7b
-```
-
-### 3. Run Agent CLI
-
-```bash
-python -m langgraph_ollama_local.cli --model llama3.2:3b
-```
-
-### 4. Run Evaluation Benchmark
-
-```bash
-pytest tests/ -v
-```
-
----
-
-## 📜 License
-Distributed under the MIT License. See `LICENSE` for details.
