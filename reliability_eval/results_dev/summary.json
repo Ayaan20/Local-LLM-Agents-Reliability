@@ -1,0 +1,127 @@
+{
+  "aggregate": {
+    "llama3.2:3b|single_shot": {
+      "n_tasks": 12,
+      "selection": [
+        7,
+        12
+      ],
+      "args_given_selection": [
+        7,
+        7
+      ],
+      "exact": [
+        7,
+        12
+      ],
+      "exact_tool_tasks": [
+        7,
+        9
+      ],
+      "malformed_attempts": [
+        4,
+        14
+      ],
+      "tasks_with_malformed": [
+        4,
+        12
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 4,
+      "success": null,
+      "recovered": null,
+      "answer_ok_but_call_wrong": 0,
+      "mean_latency_s": 0.31,
+      "total_latency_s": 3.7,
+      "mean_llm_calls": 1.0,
+      "stop_reasons": {
+        "final_answer": 12
+      }
+    },
+    "llama3.2:3b|react": {
+      "n_tasks": 12,
+      "selection": [
+        7,
+        12
+      ],
+      "args_given_selection": [
+        7,
+        7
+      ],
+      "exact": [
+        7,
+        12
+      ],
+      "exact_tool_tasks": [
+        7,
+        9
+      ],
+      "malformed_attempts": [
+        3,
+        13
+      ],
+      "tasks_with_malformed": [
+        3,
+        12
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 5,
+      "success": [
+        7,
+        12
+      ],
+      "recovered": 0,
+      "answer_ok_but_call_wrong": 1,
+      "mean_latency_s": 0.99,
+      "total_latency_s": 11.9,
+      "mean_llm_calls": 2.0,
+      "stop_reasons": {
+        "final_answer": 12
+      }
+    }
+  },
+  "paired": [
+    {
+      "comparison": "llama3.2:3b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 12,
+      "a_right": 7,
+      "b_right": 7,
+      "both": 7,
+      "only_a": 0,
+      "only_b": 0,
+      "neither": 5,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "llama3.2:3b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 9,
+      "a_right": 6,
+      "b_right": 6,
+      "both": 6,
+      "only_a": 0,
+      "only_b": 0,
+      "neither": 3,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    }
+  ],
+  "taxonomy_primary": {
+    "llama3.2:3b|single_shot": {
+      "schema_hallucination": 2,
+      "invalid_type_or_enum": 1,
+      "unneeded_call": 1,
+      "argument_omission": 1
+    },
+    "llama3.2:3b|react": {
+      "wrong_tool": 1,
+      "invalid_type_or_enum": 2,
+      "unneeded_call": 1,
+      "argument_omission": 1
+    }
+  }
+}

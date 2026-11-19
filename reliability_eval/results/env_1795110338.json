@@ -1,0 +1,59 @@
+{
+  "timestamp_utc": "2026-11-19T17:45:38.655803+00:00",
+  "python": "3.13.16",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "packages": {
+    "langgraph": "1.2.23",
+    "langchain-core": "1.8.3",
+    "langchain-ollama": "1.1.0",
+    "ollama": "0.6.3",
+    "pydantic": "2.14.1"
+  },
+  "ollama_version": "0.40.16",
+  "models": {
+    "llama3.2:3b": {
+      "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "size_bytes": 2019393189,
+      "parameter_size": "3.2B",
+      "quantization": "Q4_K_M",
+      "family": "llama",
+      "format": "gguf"
+    },
+    "qwen2.5:7b": {
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "size_bytes": 4683087332,
+      "parameter_size": "7.6B",
+      "quantization": "Q4_K_M",
+      "family": "qwen2",
+      "format": "gguf"
+    },
+    "qwen2.5:3b": {
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "size_bytes": 1929912432,
+      "parameter_size": "3.1B",
+      "quantization": "Q4_K_M",
+      "family": "qwen2",
+      "format": "gguf"
+    },
+    "llama3.2:1b": {
+      "digest": "baf6a787fdffd633537aa2eb51cfd54cb93ff08e28040095462bb63daf552878",
+      "size_bytes": 1321098329,
+      "parameter_size": "1.2B",
+      "quantization": "Q8_0",
+      "family": "llama",
+      "format": "gguf"
+    }
+  },
+  "gpu": "Tesla T4, 15360 MiB, 580.178.04\nTesla T4, 15360 MiB, 580.178.04",
+  "split": "test",
+  "n_tasks": 72,
+  "modes": [
+    "single_shot",
+    "react",
+    "react_no_error_feedback"
+  ],
+  "recursion_limit": 25,
+  "num_ctx": 4096,
+  "seed": 42,
+  "temperature": 0.0
+}

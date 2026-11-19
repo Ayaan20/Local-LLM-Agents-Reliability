@@ -1,0 +1,1138 @@
+{
+  "aggregate": {
+    "llama3.2:3b|single_shot": {
+      "n_tasks": 72,
+      "selection": [
+        40,
+        72
+      ],
+      "args_given_selection": [
+        37,
+        38
+      ],
+      "exact": [
+        39,
+        72
+      ],
+      "exact_tool_tasks": [
+        37,
+        56
+      ],
+      "malformed_attempts": [
+        17,
+        78
+      ],
+      "tasks_with_malformed": [
+        17,
+        72
+      ],
+      "tool_errors": 1,
+      "type_drift_attempts": 33,
+      "success": null,
+      "recovered": null,
+      "answer_ok_but_call_wrong": 0,
+      "mean_latency_s": 0.3,
+      "total_latency_s": 21.4,
+      "mean_llm_calls": 1.0,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "llama3.2:3b|react": {
+      "n_tasks": 72,
+      "selection": [
+        39,
+        72
+      ],
+      "args_given_selection": [
+        38,
+        38
+      ],
+      "exact": [
+        39,
+        72
+      ],
+      "exact_tool_tasks": [
+        38,
+        56
+      ],
+      "malformed_attempts": [
+        20,
+        83
+      ],
+      "tasks_with_malformed": [
+        18,
+        72
+      ],
+      "tool_errors": 1,
+      "type_drift_attempts": 36,
+      "success": [
+        39,
+        72
+      ],
+      "recovered": 0,
+      "answer_ok_but_call_wrong": 3,
+      "mean_latency_s": 1.12,
+      "total_latency_s": 80.5,
+      "mean_llm_calls": 1.99,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "llama3.2:3b|react_no_error_feedback": {
+      "n_tasks": 72,
+      "selection": [
+        39,
+        72
+      ],
+      "args_given_selection": [
+        38,
+        38
+      ],
+      "exact": [
+        39,
+        72
+      ],
+      "exact_tool_tasks": [
+        38,
+        56
+      ],
+      "malformed_attempts": [
+        17,
+        81
+      ],
+      "tasks_with_malformed": [
+        17,
+        72
+      ],
+      "tool_errors": 1,
+      "type_drift_attempts": 36,
+      "success": [
+        39,
+        72
+      ],
+      "recovered": 0,
+      "answer_ok_but_call_wrong": 3,
+      "mean_latency_s": 0.95,
+      "total_latency_s": 68.3,
+      "mean_llm_calls": 1.82,
+      "stop_reasons": {
+        "final_answer": 60,
+        "tool_error_no_feedback": 12
+      }
+    },
+    "qwen2.5:7b|single_shot": {
+      "n_tasks": 72,
+      "selection": [
+        58,
+        72
+      ],
+      "args_given_selection": [
+        42,
+        43
+      ],
+      "exact": [
+        57,
+        72
+      ],
+      "exact_tool_tasks": [
+        42,
+        56
+      ],
+      "malformed_attempts": [
+        3,
+        68
+      ],
+      "tasks_with_malformed": [
+        3,
+        72
+      ],
+      "tool_errors": 2,
+      "type_drift_attempts": 3,
+      "success": null,
+      "recovered": null,
+      "answer_ok_but_call_wrong": 0,
+      "mean_latency_s": 0.8,
+      "total_latency_s": 57.5,
+      "mean_llm_calls": 1.0,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "qwen2.5:7b|react": {
+      "n_tasks": 72,
+      "selection": [
+        68,
+        72
+      ],
+      "args_given_selection": [
+        50,
+        52
+      ],
+      "exact": [
+        66,
+        72
+      ],
+      "exact_tool_tasks": [
+        50,
+        56
+      ],
+      "malformed_attempts": [
+        0,
+        75
+      ],
+      "tasks_with_malformed": [
+        0,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 0,
+      "success": [
+        66,
+        72
+      ],
+      "recovered": 0,
+      "answer_ok_but_call_wrong": 3,
+      "mean_latency_s": 1.39,
+      "total_latency_s": 100.3,
+      "mean_llm_calls": 1.85,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "qwen2.5:7b|react_no_error_feedback": {
+      "n_tasks": 72,
+      "selection": [
+        68,
+        72
+      ],
+      "args_given_selection": [
+        50,
+        52
+      ],
+      "exact": [
+        66,
+        72
+      ],
+      "exact_tool_tasks": [
+        50,
+        56
+      ],
+      "malformed_attempts": [
+        0,
+        75
+      ],
+      "tasks_with_malformed": [
+        0,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 0,
+      "success": [
+        66,
+        72
+      ],
+      "recovered": 0,
+      "answer_ok_but_call_wrong": 3,
+      "mean_latency_s": 1.49,
+      "total_latency_s": 107.1,
+      "mean_llm_calls": 1.85,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "qwen2.5:3b|single_shot": {
+      "n_tasks": 72,
+      "selection": [
+        60,
+        72
+      ],
+      "args_given_selection": [
+        43,
+        44
+      ],
+      "exact": [
+        59,
+        72
+      ],
+      "exact_tool_tasks": [
+        43,
+        56
+      ],
+      "malformed_attempts": [
+        7,
+        72
+      ],
+      "tasks_with_malformed": [
+        6,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 7,
+      "success": null,
+      "recovered": null,
+      "answer_ok_but_call_wrong": 0,
+      "mean_latency_s": 0.48,
+      "total_latency_s": 34.7,
+      "mean_llm_calls": 1.0,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "qwen2.5:3b|react": {
+      "n_tasks": 72,
+      "selection": [
+        63,
+        72
+      ],
+      "args_given_selection": [
+        46,
+        47
+      ],
+      "exact": [
+        62,
+        72
+      ],
+      "exact_tool_tasks": [
+        46,
+        56
+      ],
+      "malformed_attempts": [
+        21,
+        104
+      ],
+      "tasks_with_malformed": [
+        7,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 14,
+      "success": [
+        60,
+        72
+      ],
+      "recovered": 2,
+      "answer_ok_but_call_wrong": 3,
+      "mean_latency_s": 1.15,
+      "total_latency_s": 82.5,
+      "mean_llm_calls": 2.01,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "qwen2.5:3b|react_no_error_feedback": {
+      "n_tasks": 72,
+      "selection": [
+        61,
+        72
+      ],
+      "args_given_selection": [
+        44,
+        45
+      ],
+      "exact": [
+        60,
+        72
+      ],
+      "exact_tool_tasks": [
+        44,
+        56
+      ],
+      "malformed_attempts": [
+        8,
+        76
+      ],
+      "tasks_with_malformed": [
+        7,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 6,
+      "success": [
+        58,
+        72
+      ],
+      "recovered": 0,
+      "answer_ok_but_call_wrong": 2,
+      "mean_latency_s": 0.82,
+      "total_latency_s": 59.0,
+      "mean_llm_calls": 1.71,
+      "stop_reasons": {
+        "final_answer": 65,
+        "tool_error_no_feedback": 7
+      }
+    },
+    "llama3.2:1b|single_shot": {
+      "n_tasks": 72,
+      "selection": [
+        2,
+        72
+      ],
+      "args_given_selection": [
+        2,
+        2
+      ],
+      "exact": [
+        2,
+        72
+      ],
+      "exact_tool_tasks": [
+        2,
+        56
+      ],
+      "malformed_attempts": [
+        69,
+        76
+      ],
+      "tasks_with_malformed": [
+        65,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 0,
+      "success": null,
+      "recovered": null,
+      "answer_ok_but_call_wrong": 0,
+      "mean_latency_s": 2.5,
+      "total_latency_s": 179.8,
+      "mean_llm_calls": 1.0,
+      "stop_reasons": {
+        "final_answer": 72
+      }
+    },
+    "llama3.2:1b|react": {
+      "n_tasks": 72,
+      "selection": [
+        7,
+        72
+      ],
+      "args_given_selection": [
+        5,
+        6
+      ],
+      "exact": [
+        6,
+        72
+      ],
+      "exact_tool_tasks": [
+        5,
+        56
+      ],
+      "malformed_attempts": [
+        137,
+        151
+      ],
+      "tasks_with_malformed": [
+        62,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 3,
+      "success": [
+        6,
+        72
+      ],
+      "recovered": 2,
+      "answer_ok_but_call_wrong": 10,
+      "mean_latency_s": 2.65,
+      "total_latency_s": 191.0,
+      "mean_llm_calls": 2.46,
+      "stop_reasons": {
+        "final_answer": 70,
+        "recursion_limit": 2
+      }
+    },
+    "llama3.2:1b|react_no_error_feedback": {
+      "n_tasks": 72,
+      "selection": [
+        4,
+        72
+      ],
+      "args_given_selection": [
+        3,
+        3
+      ],
+      "exact": [
+        4,
+        72
+      ],
+      "exact_tool_tasks": [
+        3,
+        56
+      ],
+      "malformed_attempts": [
+        76,
+        85
+      ],
+      "tasks_with_malformed": [
+        63,
+        72
+      ],
+      "tool_errors": 0,
+      "type_drift_attempts": 0,
+      "success": [
+        4,
+        72
+      ],
+      "recovered": 0,
+      "answer_ok_but_call_wrong": 0,
+      "mean_latency_s": 2.16,
+      "total_latency_s": 155.6,
+      "mean_llm_calls": 1.11,
+      "stop_reasons": {
+        "tool_error_no_feedback": 58,
+        "final_answer": 14
+      }
+    }
+  },
+  "paired": [
+    {
+      "comparison": "llama3.2:3b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 39,
+      "b_right": 39,
+      "both": 38,
+      "only_a": 1,
+      "only_b": 1,
+      "neither": 32,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "llama3.2:3b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 36,
+      "b_right": 36,
+      "both": 35,
+      "only_a": 1,
+      "only_b": 1,
+      "neither": 15,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "llama3.2:3b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 39,
+      "b_right": 39,
+      "both": 39,
+      "only_a": 0,
+      "only_b": 0,
+      "neither": 33,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "llama3.2:3b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 36,
+      "b_right": 36,
+      "both": 36,
+      "only_a": 0,
+      "only_b": 0,
+      "neither": 16,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "qwen2.5:7b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 66,
+      "b_right": 57,
+      "both": 57,
+      "only_a": 9,
+      "only_b": 0,
+      "neither": 6,
+      "p_mcnemar": 0.0039,
+      "gap_pts": 12.5
+    },
+    {
+      "comparison": "qwen2.5:7b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 50,
+      "both": 50,
+      "only_a": 1,
+      "only_b": 0,
+      "neither": 1,
+      "p_mcnemar": 1.0,
+      "gap_pts": 1.9
+    },
+    {
+      "comparison": "qwen2.5:7b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 66,
+      "b_right": 66,
+      "both": 66,
+      "only_a": 0,
+      "only_b": 0,
+      "neither": 6,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "qwen2.5:7b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 51,
+      "both": 51,
+      "only_a": 0,
+      "only_b": 0,
+      "neither": 1,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "qwen2.5:3b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 62,
+      "b_right": 59,
+      "both": 56,
+      "only_a": 6,
+      "only_b": 3,
+      "neither": 7,
+      "p_mcnemar": 0.5078,
+      "gap_pts": 4.2
+    },
+    {
+      "comparison": "qwen2.5:3b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 52,
+      "b_right": 51,
+      "both": 51,
+      "only_a": 1,
+      "only_b": 0,
+      "neither": 0,
+      "p_mcnemar": 1.0,
+      "gap_pts": 1.9
+    },
+    {
+      "comparison": "qwen2.5:3b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 60,
+      "b_right": 58,
+      "both": 58,
+      "only_a": 2,
+      "only_b": 0,
+      "neither": 12,
+      "p_mcnemar": 0.5,
+      "gap_pts": 2.8
+    },
+    {
+      "comparison": "qwen2.5:3b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 51,
+      "both": 51,
+      "only_a": 0,
+      "only_b": 0,
+      "neither": 1,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "llama3.2:1b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 6,
+      "b_right": 2,
+      "both": 2,
+      "only_a": 4,
+      "only_b": 0,
+      "neither": 66,
+      "p_mcnemar": 0.125,
+      "gap_pts": 5.6
+    },
+    {
+      "comparison": "llama3.2:1b: react (A) vs single_shot (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 6,
+      "b_right": 2,
+      "both": 2,
+      "only_a": 4,
+      "only_b": 0,
+      "neither": 46,
+      "p_mcnemar": 0.125,
+      "gap_pts": 7.7
+    },
+    {
+      "comparison": "llama3.2:1b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 6,
+      "b_right": 4,
+      "both": 4,
+      "only_a": 2,
+      "only_b": 0,
+      "neither": 66,
+      "p_mcnemar": 0.5,
+      "gap_pts": 2.8
+    },
+    {
+      "comparison": "llama3.2:1b: react (A) vs react_no_error_feedback (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 6,
+      "b_right": 4,
+      "both": 4,
+      "only_a": 2,
+      "only_b": 0,
+      "neither": 46,
+      "p_mcnemar": 0.5,
+      "gap_pts": 3.8
+    },
+    {
+      "comparison": "single_shot: qwen2.5:7b (A) vs qwen2.5:3b (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 57,
+      "b_right": 59,
+      "both": 52,
+      "only_a": 5,
+      "only_b": 7,
+      "neither": 8,
+      "p_mcnemar": 0.7744,
+      "gap_pts": -2.8
+    },
+    {
+      "comparison": "single_shot: qwen2.5:7b (A) vs qwen2.5:3b (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 50,
+      "b_right": 51,
+      "both": 49,
+      "only_a": 1,
+      "only_b": 2,
+      "neither": 0,
+      "p_mcnemar": 1.0,
+      "gap_pts": -1.9
+    },
+    {
+      "comparison": "react: qwen2.5:7b (A) vs qwen2.5:3b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 66,
+      "b_right": 60,
+      "both": 58,
+      "only_a": 8,
+      "only_b": 2,
+      "neither": 4,
+      "p_mcnemar": 0.1094,
+      "gap_pts": 8.3
+    },
+    {
+      "comparison": "react: qwen2.5:7b (A) vs qwen2.5:3b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 51,
+      "both": 50,
+      "only_a": 1,
+      "only_b": 1,
+      "neither": 0,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "react_no_error_feedback: qwen2.5:7b (A) vs qwen2.5:3b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 66,
+      "b_right": 58,
+      "both": 56,
+      "only_a": 10,
+      "only_b": 2,
+      "neither": 4,
+      "p_mcnemar": 0.0386,
+      "gap_pts": 11.1
+    },
+    {
+      "comparison": "react_no_error_feedback: qwen2.5:7b (A) vs qwen2.5:3b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 51,
+      "both": 50,
+      "only_a": 1,
+      "only_b": 1,
+      "neither": 0,
+      "p_mcnemar": 1.0,
+      "gap_pts": 0.0
+    },
+    {
+      "comparison": "single_shot: llama3.2:3b (A) vs llama3.2:1b (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 39,
+      "b_right": 2,
+      "both": 2,
+      "only_a": 37,
+      "only_b": 0,
+      "neither": 33,
+      "p_mcnemar": 0.0,
+      "gap_pts": 51.4
+    },
+    {
+      "comparison": "single_shot: llama3.2:3b (A) vs llama3.2:1b (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 36,
+      "b_right": 2,
+      "both": 2,
+      "only_a": 34,
+      "only_b": 0,
+      "neither": 16,
+      "p_mcnemar": 0.0,
+      "gap_pts": 65.4
+    },
+    {
+      "comparison": "react: llama3.2:3b (A) vs llama3.2:1b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 39,
+      "b_right": 6,
+      "both": 6,
+      "only_a": 33,
+      "only_b": 0,
+      "neither": 33,
+      "p_mcnemar": 0.0,
+      "gap_pts": 45.8
+    },
+    {
+      "comparison": "react: llama3.2:3b (A) vs llama3.2:1b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 36,
+      "b_right": 6,
+      "both": 6,
+      "only_a": 30,
+      "only_b": 0,
+      "neither": 16,
+      "p_mcnemar": 0.0,
+      "gap_pts": 57.7
+    },
+    {
+      "comparison": "react_no_error_feedback: llama3.2:3b (A) vs llama3.2:1b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 39,
+      "b_right": 4,
+      "both": 4,
+      "only_a": 35,
+      "only_b": 0,
+      "neither": 33,
+      "p_mcnemar": 0.0,
+      "gap_pts": 48.6
+    },
+    {
+      "comparison": "react_no_error_feedback: llama3.2:3b (A) vs llama3.2:1b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 36,
+      "b_right": 4,
+      "both": 4,
+      "only_a": 32,
+      "only_b": 0,
+      "neither": 16,
+      "p_mcnemar": 0.0,
+      "gap_pts": 61.5
+    },
+    {
+      "comparison": "single_shot: qwen2.5:3b (A) vs llama3.2:3b (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 59,
+      "b_right": 39,
+      "both": 38,
+      "only_a": 21,
+      "only_b": 1,
+      "neither": 12,
+      "p_mcnemar": 0.0,
+      "gap_pts": 27.8
+    },
+    {
+      "comparison": "single_shot: qwen2.5:3b (A) vs llama3.2:3b (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 36,
+      "both": 35,
+      "only_a": 16,
+      "only_b": 1,
+      "neither": 0,
+      "p_mcnemar": 0.0003,
+      "gap_pts": 28.8
+    },
+    {
+      "comparison": "react: qwen2.5:3b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 60,
+      "b_right": 39,
+      "both": 39,
+      "only_a": 21,
+      "only_b": 0,
+      "neither": 12,
+      "p_mcnemar": 0.0,
+      "gap_pts": 29.2
+    },
+    {
+      "comparison": "react: qwen2.5:3b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 36,
+      "both": 36,
+      "only_a": 15,
+      "only_b": 0,
+      "neither": 1,
+      "p_mcnemar": 0.0001,
+      "gap_pts": 28.8
+    },
+    {
+      "comparison": "react_no_error_feedback: qwen2.5:3b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 58,
+      "b_right": 39,
+      "both": 39,
+      "only_a": 19,
+      "only_b": 0,
+      "neither": 14,
+      "p_mcnemar": 0.0,
+      "gap_pts": 26.4
+    },
+    {
+      "comparison": "react_no_error_feedback: qwen2.5:3b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 36,
+      "both": 36,
+      "only_a": 15,
+      "only_b": 0,
+      "neither": 1,
+      "p_mcnemar": 0.0001,
+      "gap_pts": 28.8
+    },
+    {
+      "comparison": "single_shot: qwen2.5:7b (A) vs llama3.2:3b (B)",
+      "metric": "exact_match",
+      "subset": "all",
+      "n": 72,
+      "a_right": 57,
+      "b_right": 39,
+      "both": 38,
+      "only_a": 19,
+      "only_b": 1,
+      "neither": 14,
+      "p_mcnemar": 0.0,
+      "gap_pts": 25.0
+    },
+    {
+      "comparison": "single_shot: qwen2.5:7b (A) vs llama3.2:3b (B)",
+      "metric": "exact_match",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 50,
+      "b_right": 36,
+      "both": 35,
+      "only_a": 15,
+      "only_b": 1,
+      "neither": 1,
+      "p_mcnemar": 0.0005,
+      "gap_pts": 26.9
+    },
+    {
+      "comparison": "react: qwen2.5:7b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 66,
+      "b_right": 39,
+      "both": 38,
+      "only_a": 28,
+      "only_b": 1,
+      "neither": 5,
+      "p_mcnemar": 0.0,
+      "gap_pts": 37.5
+    },
+    {
+      "comparison": "react: qwen2.5:7b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 36,
+      "both": 35,
+      "only_a": 16,
+      "only_b": 1,
+      "neither": 0,
+      "p_mcnemar": 0.0003,
+      "gap_pts": 28.8
+    },
+    {
+      "comparison": "react_no_error_feedback: qwen2.5:7b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "all",
+      "n": 72,
+      "a_right": 66,
+      "b_right": 39,
+      "both": 38,
+      "only_a": 28,
+      "only_b": 1,
+      "neither": 5,
+      "p_mcnemar": 0.0,
+      "gap_pts": 37.5
+    },
+    {
+      "comparison": "react_no_error_feedback: qwen2.5:7b (A) vs llama3.2:3b (B)",
+      "metric": "success",
+      "subset": "excluding multi_step",
+      "n": 52,
+      "a_right": 51,
+      "b_right": 36,
+      "both": 35,
+      "only_a": 16,
+      "only_b": 1,
+      "neither": 0,
+      "p_mcnemar": 0.0003,
+      "gap_pts": 28.8
+    }
+  ],
+  "taxonomy_primary": {
+    "llama3.2:3b|single_shot": {
+      "wrong_value": 1,
+      "wrong_tool": 6,
+      "schema_hallucination": 8,
+      "invalid_type_or_enum": 9,
+      "incomplete_chain": 4,
+      "unneeded_call": 5
+    },
+    "llama3.2:3b|react": {
+      "wrong_tool": 5,
+      "parse_failure": 6,
+      "incomplete_chain": 5,
+      "schema_hallucination": 5,
+      "unneeded_call": 5,
+      "invalid_type_or_enum": 6,
+      "argument_omission": 1
+    },
+    "llama3.2:3b|react_no_error_feedback": {
+      "wrong_tool": 5,
+      "parse_failure": 6,
+      "incomplete_chain": 5,
+      "schema_hallucination": 5,
+      "unneeded_call": 6,
+      "invalid_type_or_enum": 5,
+      "argument_omission": 1
+    },
+    "qwen2.5:7b|single_shot": {
+      "wrong_value": 1,
+      "invalid_type_or_enum": 3,
+      "wrong_tool": 7,
+      "incomplete_chain": 3,
+      "unneeded_call": 1
+    },
+    "qwen2.5:7b|react": {
+      "wrong_value": 2,
+      "wrong_tool": 2,
+      "incomplete_chain": 2
+    },
+    "qwen2.5:7b|react_no_error_feedback": {
+      "wrong_value": 2,
+      "wrong_tool": 2,
+      "incomplete_chain": 2
+    },
+    "qwen2.5:3b|single_shot": {
+      "wrong_value": 1,
+      "invalid_type_or_enum": 6,
+      "incomplete_chain": 4,
+      "wrong_tool": 2
+    },
+    "qwen2.5:3b|react": {
+      "wrong_tool": 4,
+      "cyclic_stagnation": 3,
+      "schema_hallucination": 1,
+      "wrong_value": 1,
+      "invalid_type_or_enum": 1,
+      "tool_skipped": 1,
+      "answer_wrong": 1
+    },
+    "qwen2.5:3b|react_no_error_feedback": {
+      "wrong_tool": 4,
+      "invalid_type_or_enum": 5,
+      "schema_hallucination": 2,
+      "wrong_value": 1,
+      "tool_skipped": 1,
+      "answer_wrong": 1
+    },
+    "llama3.2:1b|single_shot": {
+      "schema_hallucination": 62,
+      "parse_failure": 3,
+      "wrong_tool": 4,
+      "incomplete_chain": 1
+    },
+    "llama3.2:1b|react": {
+      "schema_hallucination": 52,
+      "parse_failure": 5,
+      "wrong_tool": 4,
+      "cyclic_stagnation": 3,
+      "incomplete_chain": 1,
+      "unneeded_call": 1
+    },
+    "llama3.2:1b|react_no_error_feedback": {
+      "schema_hallucination": 58,
+      "parse_failure": 5,
+      "wrong_tool": 4,
+      "incomplete_chain": 1
+    }
+  }
+}
